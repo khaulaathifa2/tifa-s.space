@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | Tifa’s space</title>
+    <meta name="description" content="Get in touch with Tifa.">
+    <meta name="theme-color" content="#5b6340">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="index.html">Tifa’s <span>space</span></a>
+        <button
+          type="button"
+          class="menu-btn"
+          id="menu-btn"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="interests.html">About me &amp; hobbies</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="switch"
+          id="theme-switch"
+          role="switch"
+          aria-checked="false"
+          aria-label="Dark theme"
+        >
+          <span class="knob"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <header class="page-head">
+        <h1>Say hello</h1>
+        <p>Questions, ideas, or just a friendly note are all welcome.</p>
+      </header>
+      <div class="contact-grid">
+        <section aria-labelledby="find">
+          <h2 id="find">Find me</h2>
+          <ul class="links">
+            <li>
+              <strong>Email</strong
+              ><a href="mailto:khaulaathifa2@gmail.com"
+                >khaulaathifa2@gmail.com</a
+              >
+            </li>
+            <li>
+              <strong>Instagram</strong
+              ><a href="https://instagram.com/khaulaathifa_" rel="noopener"
+                >@khaulaathifa_</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section aria-labelledby="write">
+          <h2 id="write">Leave a message</h2>
+          <form id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                aria-describedby="name-error"
+              >
+              <p class="error" id="name-error"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                aria-describedby="email-error"
+              >
+              <p class="error" id="email-error"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                aria-describedby="message-error"
+              ></textarea>
+              <p class="error" id="message-error"></p>
+            </div>
+            <button class="btn" type="submit">Send message</button>
+            <p class="status" id="form-status" role="status"></p>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap"><p>Made by Tifa</p></div>
+    </footer>
+  </body>
+</html>

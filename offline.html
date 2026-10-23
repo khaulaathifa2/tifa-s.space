@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Offline | Tifa’s space</title>
+    <meta name="description" content="You are offline.">
+    <meta name="theme-color" content="#5b6340">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="index.html">Tifa’s <span>space</span></a>
+        <button
+          type="button"
+          class="menu-btn"
+          id="menu-btn"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="interests.html">About me &amp; hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="switch"
+          id="theme-switch"
+          role="switch"
+          aria-checked="false"
+          aria-label="Dark theme"
+        >
+          <span class="knob"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <section class="page-head" style="min-height: 50vh">
+        <h1>You’re offline</h1>
+        <p>
+          This page hasn’t been saved on your device yet. Reconnect and reload,
+          or go back to a page you’ve already visited.
+        </p>
+        <div class="actions">
+          <a class="btn" href="index.html">Back to home</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Made by Tifa</p>
+      </div>
+    </footer>
+  </body>
+</html>

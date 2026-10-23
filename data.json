@@ -1,0 +1,17 @@
+{
+  "books": [
+    {"title": "THE DAVINCI CODE", "by": "DAN BROWN", "note": "Complex and full of mystery"},
+    {"title": "A LITTLE LIFE", "by": "HANYA YANAGIHARA", "note": "A moving story of struggle and friendship"},
+    {"title": "LIMA SEKAWAN", "by": "ENID BLYTON", "note": "Mystery adventure"}
+  ],
+  "films": [
+    {"title": "NORTHERN LIMIT LINE", "by": "KIM HAK-SOON, 2015", "note": "A moving struggle to protect the border"},
+    {"title": "MAZE RUNNER", "by": "WES BALL, 2014-2018", "note": "Surviving with the body's antibodies"},
+    {"title": "JUMANJI", "by": "JAKE KASDAN, 2017-2026", "note": "Adventures in another world"}
+  ],
+  "music": [
+    {"title": "JUST GIVE ME A REASON", "by": "P!NK ft. NATE RUESS", "note": "Misunderstandings and doubts"},
+    {"title": "CIRCLE", "by": "SEVENTEEN", "note": "The cycle of life"},
+    {"title": "DON'T GO", "by": "EXO", "note": "Fear of loss"}
+  ]
+}

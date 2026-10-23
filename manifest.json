@@ -1,0 +1,14 @@
+{
+  "name": "Tifa’s space",
+  "short_name": "Tifa’s space",
+  "description": "Tifa’s personal space: about me, hobbies and contact.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#efe8da",
+  "theme_color": "#5b6340",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

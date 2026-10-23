@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About me & hobbies | Tifa’s space</title>
+    <meta name="description" content="About and hobbies of Tifa.">
+    <meta name="theme-color" content="#5b6340">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="index.html">Tifa’s <span>space</span></a>
+        <button
+          type="button"
+          class="menu-btn"
+          id="menu-btn"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="interests.html" aria-current="page"
+                >About me &amp; hobbies</a
+              >
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="switch"
+          id="theme-switch"
+          role="switch"
+          aria-checked="false"
+          aria-label="Dark theme"
+        >
+          <span class="knob"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <header class="page-head">
+        <h1>about me &amp; hobbies</h1>
+        <p>The little things I like, and how I spend my quiet time.</p>
+      </header>
+      <section class="section" aria-labelledby="quick">
+        <h2 id="quick">Quick answers</h2>
+        <div class="table-scroll">
+          <table>
+            <caption>
+              small questions, quick answers
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Question</th>
+                <th scope="col">My answer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>cheese or chocolate</td>
+                <td>cheese</td>
+              </tr>
+              <tr>
+                <td>salty or sweet</td>
+                <td>sweet</td>
+              </tr>
+              <tr>
+                <td>introvert or extrovert</td>
+                <td>introvert</td>
+              </tr>
+              <tr>
+                <td>sleep or play</td>
+                <td>sleep</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="hobbies">
+        <h2 id="hobbies">Hobbies</h2>
+        <div
+          class="tabs"
+          id="hobby-tabs"
+          role="tablist"
+          aria-label="Hobby categories"
+        ></div>
+        <div class="shelf" id="hobby-panel" role="tabpanel" aria-live="polite">
+          Loading…
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap"><p>Made by Tifa</p></div>
+    </footer>
+  </body>
+</html>

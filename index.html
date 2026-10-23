@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Tifa’s space</title>
+    <meta name="description" content="Tifa’s personal space.">
+    <meta name="theme-color" content="#5b6340">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="index.html">Tifa’s <span>space</span></a>
+        <button
+          type="button"
+          class="menu-btn"
+          id="menu-btn"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="interests.html">About me &amp; hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="switch"
+          id="theme-switch"
+          role="switch"
+          aria-checked="false"
+          aria-label="Dark theme"
+        >
+          <span class="knob"></span>
+        </button>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <section class="hero" aria-labelledby="hi">
+        <div>
+          <h1 id="hi">Hi, I’m Tifa.</h1>
+          <p class="lead">
+            Someone who loves quiet moments, gets lost in stories and finds
+            beauty in the little things.
+          </p>
+          <div class="actions">
+            <a class="btn" href="interests.html">See what I like</a>
+            <a class="btn ghost" href="contact.html">Say hello</a>
+          </div>
+        </div>
+        <figure class="photo">
+          <img
+            src="photo/photo.jpg"
+            alt="Portrait of Tifa"
+            width="760"
+            height="950"
+          >
+        </figure>
+      </section>
+
+      <section class="section" aria-labelledby="motto-title">
+        <h2 id="motto-title">Little motto</h2>
+        <blockquote class="motto">
+          <p>"So plant your own gardens and decorate your own soul instead of waiting for someone to bring you flowers."</p>
+        </blockquote>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap"><p>Made by Tifa</p></div>
+    </footer>
+  </body>
+</html>
